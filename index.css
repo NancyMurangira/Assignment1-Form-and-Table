@@ -1,0 +1,85 @@
+#form{
+
+    width: 30%;
+    padding: 12px;
+    margin: 0 auto;
+    
+            }
+    .input{
+        padding: 8px 12px;
+        width: 60%;
+        border-radius: 5px;
+        border: solid 1px;
+    
+    }
+    
+    
+       h6{
+    margin-right: 80px auto;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    
+    
+       }
+       h6::before{
+        content: "";
+        display: block;
+        width: 193px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    
+    
+       }
+       h6::after{
+        content: "";
+        display: block;
+        width: 193px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    
+    
+       }
+       .footer::before{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "lato";
+    
+       }
+    
+    
+    
+       
+       button{
+                padding: 12px 19px;
+                width: 65%;
+                border: none;
+                border-radius: 5px;
+                color:white;
+                background: black;
+            }
+            #signin{
+                color:white;
+                text-decoration: none;
+            }
+            #sign{
+                color:black;
+                font-weight: bold;
+                text-decoration: none;
+              
+            }
+            .icons{
+               margin-left: 37%; 
+            }
+            
